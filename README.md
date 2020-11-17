@@ -1,6 +1,6 @@
-# Toshiba Teli & Pekat example
+# Toshiba Teli & Pekat Vision example
 
-The example shows how to connect to Toshiba Teli camera, acquire one image and analyze it in Pekat. Both Python and C++ examples require Toshiba Teli
+The example shows how to connect to Toshiba Teli camera, acquire one image and analyze it in Pekat Vision. Both Python and C++ examples require Toshiba Teli
 SDK to be installed on your system. You will also need to modify the code to reference your instance of Pekat server - just search for `host` in
 Python and `pv_create_remote_analyzer` in C++.
 
