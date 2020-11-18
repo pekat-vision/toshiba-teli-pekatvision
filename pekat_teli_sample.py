@@ -22,7 +22,7 @@ if (cameras):
         print("  User name: %s" % info.userDefinedName)
 
     # Connect to Pekat
-    pekat = Pekat(host = "51.124.161.74", port = 8100, already_running = True)
+    pekat = Pekat(host = "127.0.0.1", port = 8100, already_running = True)
 
     with Camera(0) as cam:
         # How to get and set properties
