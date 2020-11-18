@@ -57,7 +57,7 @@ int main() {
             uint32_t maxBufSize;
 
             // Create Pekat analyzer
-            pekat = pv_create_remote_analyzer("51.124.161.74", 8100, NULL);
+            pekat = pv_create_remote_analyzer("127.0.0.1", 8100, NULL);
             if (!pekat) {
                 printf("Failed to create Pekat analyzer\n");
                 break;
